@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TallerTypeScript 1</title>
+        <title>TallerTypeScript 2</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     
         <meta  name="theme-color" content="#49e">
@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark zindex-fixed ">
         <div class="container-fluid">
             <div class="logo" href="#">
-                <img src="/TypeScript1/Images/png-transparent-television-channel-logo-tv-others-television-angle-text.png">
+                <img src="./Images/png-transparent-television-channel-logo-tv-others-television-angle-text.png">
 
                 <span style="color: white">
                     TV-Series 
@@ -26,9 +26,9 @@
     </nav>
 
 
-                <div class="row">
+            <div class="row">
                     <div class="col-6 col-table">
-                        <table class="table table-borderedr">
+                        <table class="table table-hover">
                             <caption>
                                 <div class="row">
                                     <p id= "Temporadas"></p> 
@@ -47,6 +47,20 @@
                         </table>
                     </div>
                 </div>
+
+
+                <div class="col col-card">
+                    <div class="card" style="width: 20rem;">
+                        <img id= "card-image" class="card-img-top">
+                        <div class="card-body">
+                          <h5 id="card-name" class="card-title"></h5>
+                          <p id="card-info" class="card-text"></p>
+                          <a id="card-link" class="card-link"></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
 
         <script type="module" src="./Scripts.Js/serie.js" ></script>
         <script type="module" src="./Scripts.Js/data.js" ></script>
