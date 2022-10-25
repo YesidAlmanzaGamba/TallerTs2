@@ -81,3 +81,12 @@ main{
     padding: 20px;
     margin: 20px;
 }
+
+.col-card{
+    margin: 20px;
+    display: inline;
+}
+
+.card-img-top{
+    display: inline;
+}

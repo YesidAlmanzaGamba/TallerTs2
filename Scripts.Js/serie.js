@@ -2,7 +2,7 @@
 
 var Serie = /** @class */ (function () {
 
-    function Serie(id, nombre, canal, temporada) {
+    function Serie(id, nombre, canal, temporada,imagen,info,link) {
 
         this.id = id;
 
@@ -11,6 +11,14 @@ var Serie = /** @class */ (function () {
         this.canal = canal;
         
         this.temporada = temporada;
+
+        this.info=info;
+
+        this.imagen= imagen;
+
+        this.link=link;
+
+
     }
 
     return Serie;
